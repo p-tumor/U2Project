@@ -16,7 +16,7 @@ slope-> finds slope to nearest hundredth. I'll have it so that the slope, when t
 yIntercept-> uses y=mx+b equation to find b. using the slope and coords
 slopeIntForm-> returns slope in form. using the coords, y intercept
 getDistance-> gets distance using distance formula obviously (to nearest hundredth)
-find y-> find y coord for an x coord using slope int form of an object. and it returns the inputted x and solved y. (inputted x, solved y)
+find y-> find y coord for an x coord using slope int form of an object. and it returns the inputted x and solved y. (inputted x, solved y) its gonna change the
 toString()-> itll print coord 1 and coord 2, slope, slopeIntForm, and distance between points
 
 
