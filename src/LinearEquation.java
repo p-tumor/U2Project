@@ -3,8 +3,9 @@ public class  LinearEquation {
     private double y1;
     private double x2;
     private double y2;
+    private double newX;
 
-    public LinearEquation(double x1,double y1,double x2,double y2)
+    public LinearEquation(double x1,double y1,double x2,double y2, double newX)
     {
         this.x1 = x1;
         this.y1 = y1;
@@ -23,18 +24,34 @@ public class  LinearEquation {
         double s = y/x;
         if (s%1 != 0)
         {
-            return String.format("%f/%f",y,x);
+            return String.format("%.2f/%.2f",y,x);
         }
         return String.format("%f",s);
+    }
+    public double s()
+    {
+        double y = y2-y1;
+        double x = x2-x1;
+        double s = y/x;
+        return s;
     }
     public String yIntercept()
     {
         double y = y2-y1;
         double x = x2-x1;
         double s = y/x;
-        double mx = s*x1;
+        double mx = s*x2;
         double b  = y-mx;
         return String.format(("%.2f"),b);
+    }
+    public Double yInt()
+    {
+        double y = y2-y1;
+        double x = x2-x1;
+        double s = y/x;
+        double mx = s*x2;
+        double b  = y-mx;
+        return b;
     }
     public String slopeIntForm()
     {
@@ -50,8 +67,18 @@ public class  LinearEquation {
         return String.format("%.2f",d);
     }
 
+    public String solveY()
+    {
+        double newY = (s()*newX)+yInt();
+        return String.format("Solved coordinate point is (%f,%f)",newX,newY);
+
+    }
+    public void customx(double newX){this.x3 = newX;}
+
     public String toString()
     {
         return String.format("First Coordinate: %s\nSecond Coordinate: %s\nSlope of Line: %s\nY-Intercept: %s\nSlope Intercept Form: %s\n",getCoord1(),getCoord2(),slope(),yIntercept(),slopeIntForm());
     }
+
+
 }
