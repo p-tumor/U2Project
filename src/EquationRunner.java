@@ -8,7 +8,8 @@ public class EquationRunner {
         System.out.println(x);
         int xCoord1 = Integer.parseInt(x);
         System.out.println(xCoord1);
-        System.out.println("Enter second coordinate(no spaces, with parenthesis, with comma): ");
+        System.out.println("Enter second coordina" +
+                "brororororoorte(no spaces, with parenthesis, with comma): ");
 
     }
 }

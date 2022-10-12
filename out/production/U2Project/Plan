@@ -1,0 +1,32 @@
+Use Scanner class to take in (x1,y1) and (x2,y2)
+use subtring method to take numbers form the inputted strings
+substring will be changed from string to numbers
+use extracted numbers to create a LinearEquation object
+the scanner will use a loop that makes sure the x values arent the same. It'll tell the use that the slope is undefined and no calculations can be made and ask them to input a new x value
+
+the constructor will be both the given x and y values
+LE n = new LE (x1,y1,x2,y2)
+and its going to accept doubles
+every variable is going to be a double because everything can be a double
+
+methods
+getCoord1-> gets first coord inputted, so takes x1 and y1 and returns (x1,y1). easier to digest
+getCoord2-> gets second coord inputted. returns the same as getCoords1 just for x2 and y2, so (x2,y2)
+slope-> finds slope to nearest hundredth. I'll have it so that the slope, when the quotient will be a decimal, will be represented as a fraction. When the quotient isn't a decimal it will be represented as an integer.
+yIntercept-> uses y=mx+b equation to find b. using the slope and y intercept
+slopeIntForm-> returns slope in form. using the coords, y intercept
+getDistance-> gets distance using distance formula obviously (to nearest hundredth)
+find y-> find y coord for an x coord using slope int form of an object. and it returns the inputted x and solved y. (inputted x, solved y) its gonna change the
+toString()-> itll print coord 1 and coord 2, slope, slopeIntForm, and distance between points
+
+
+output:
+sout(n.getCoord1)
+sout(n.getCoord2)
+sout(n.slope)
+sout(n.slopeIntForm)
+sout(n.getDistance)
+
+after all is done and printed ask for new x value
+we use the slope int to find the y value
+sout(n.findy)
