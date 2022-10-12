@@ -52,6 +52,6 @@ public class  LinearEquation {
 
     public String toString()
     {
-        return String.format("First Coordinate: %s\nSecond Coordinate: %s\n");
+        return String.format("First Coordinate: %s\nSecond Coordinate: %s\nSlope of Line: %s\nY-Intercept: %s\nSlope Intercept Form: %s\n",getCoord1(),getCoord2(),slope(),yIntercept(),slopeIntForm());
     }
 }
