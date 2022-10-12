@@ -18,6 +18,7 @@ slopeIntForm-> returns slope in form. using the coords, y intercept
 getDistance-> gets distance using distance formula obviously (to nearest hundredth)
 find y-> find y coord for an x coord using slope int form of an object. and it returns the inputted x and solved y. (inputted x, solved y) its gonna change the
 toString()-> itll print coord 1 and coord 2, slope, slopeIntForm, and distance between points
+Im going to make a method thats the same as slope and y intercept but it return numbers instead of strings to interact with other methods
 
 
 output:

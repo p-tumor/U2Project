@@ -44,7 +44,7 @@ public class  LinearEquation {
         double b  = y-mx;
         return String.format(("%.2f"),b);
     }
-    public Double yInt()
+    public double yInt()
     {
         double y = y2-y1;
         double x = x2-x1;
@@ -73,7 +73,7 @@ public class  LinearEquation {
         return String.format("Solved coordinate point is (%f,%f)",newX,newY);
 
     }
-    public void customx(double newX){this.x3 = newX;}
+    public void customx(double newX){this.newX = newX;}
 
     public String toString()
     {
