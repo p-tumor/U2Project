@@ -13,7 +13,7 @@ methods
 getCoord1-> gets first coord inputted, so takes x1 and y1 and returns (x1,y1). easier to digest
 getCoord2-> gets second coord inputted. returns the same as getCoords1 just for x2 and y2, so (x2,y2)
 slope-> finds slope to nearest hundredth. I'll have it so that the slope, when the quotient will be a decimal, will be represented as a fraction. When the quotient isn't a decimal it will be represented as an integer.
-yIntercept-> uses y=mx+b equation to find b. using the slope and coords
+yIntercept-> uses y=mx+b equation to find b. using the slope and y intercept
 slopeIntForm-> returns slope in form. using the coords, y intercept
 getDistance-> gets distance using distance formula obviously (to nearest hundredth)
 find y-> find y coord for an x coord using slope int form of an object. and it returns the inputted x and solved y. (inputted x, solved y) its gonna change the
